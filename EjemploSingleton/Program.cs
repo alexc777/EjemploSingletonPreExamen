@@ -11,7 +11,7 @@ namespace EjemploSingleton
             SingletonDBConexion c1 = SingletonDBConexion.Conexion();
             SingletonDBConexion c2 = SingletonDBConexion.Conexion();
 
-            // Validamos que las instancia sea en la misma
+            // Validamos que las instancia sea la misma
             if (c1 == c2)
             {
                 Console.WriteLine("Si es la misma instancia, conexión exitosa.");
